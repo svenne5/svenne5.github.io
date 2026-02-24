@@ -6,7 +6,7 @@ import svgr from 'vite-plugin-svgr'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tsconfigPaths(), react(), svgr()],
-  server: {
-    host: true, // sets host to 0.0.0.0
-  },
+  // server: {
+  //   host: true, // sets host to 0.0.0.0
+  // },
 })
